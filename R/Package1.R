@@ -9,6 +9,6 @@
 #' \dontrun{myplot(x=13)}
 #'
 #' @export
-myplot=function(x){
+myquadratic=function(x=10){
   0.86089580 +1.46959217*x  -0.02745726*x^2
 }
