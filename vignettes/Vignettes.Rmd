@@ -68,3 +68,10 @@ y=c(10,12,13,15,12,11,10)
 MATH4753pard0003::mymlnorm(y,color='black')
 ```
 This function produces a 3 panel plot for the poisson distribution.
+
+# mybootpval Function
+```{r}
+set.seed(55);x1=rnorm(30,mean=25, sd=5)
+MATH4753pard0003::bootpval(x=x1,mu=22,test="two")
+```
+This function produces a histogram with accepted and rejected regions from a bootstrap resample from a given sample and a given null hypothesis about the mean of the sample.
